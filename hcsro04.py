@@ -33,6 +33,7 @@ def distance():
     TimeElapsed = StopTime - StartTime
     # multiply with the sonic speed (34300 cm/s)
     # and divide BOARDy 2, because there and back
+    print('StartTime: %f StopTime: %f' % (StartTime, StopTime))
     distance = (TimeElapsed * 34300) / 2
 
     return distance
